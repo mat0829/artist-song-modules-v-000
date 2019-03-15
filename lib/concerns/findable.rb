@@ -1,7 +1,7 @@
 module Findable
   
   def find_by_name(name)
-    @@self.find {|name| name
+    @@self.find {|self| self.find 
   end
   
 end
